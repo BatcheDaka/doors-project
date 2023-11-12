@@ -10,6 +10,9 @@ interface DoorDetailProps {
 export function DoorDetail({ door }: DoorDetailProps) {
   return (
     <DetailPageContainer>
+      <DetailPageItem label="Apartment Name">
+        <Typography>{door.apartmentName}</Typography>
+      </DetailPageItem>
       <DetailPageItem label="ID">
         <Typography>{door.id}</Typography>
       </DetailPageItem>
