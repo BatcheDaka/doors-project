@@ -43,6 +43,7 @@ export const doors: DoorDto[] = [
     last_connection_status_update: '2023-02-22T04:03:50.911Z',
     building_id: buildings[0].id,
     apartment_id: apartments[0].id,
+    apartment_name: apartments[0].name,
   },
   {
     id: '63f4d8afc4cd4d26397a7ecd',
@@ -52,6 +53,7 @@ export const doors: DoorDto[] = [
     last_connection_status_update: '2023-02-22T05:00:29.537Z',
     building_id: buildings[0].id,
     apartment_id: apartments[1].id,
+    apartment_name: apartments[1].name,
   },
   {
     id: '63f4d8b5a1dc6642117a61bf',
@@ -61,6 +63,7 @@ export const doors: DoorDto[] = [
     last_connection_status_update: '2023-02-22T12:13:36.252Z',
     building_id: buildings[1].id,
     apartment_id: apartments[2].id,
+    apartment_name: apartments[2].name,
   },
   {
     id: '63f4d8c1aa341b8afb4c93ef',
@@ -70,5 +73,6 @@ export const doors: DoorDto[] = [
     last_connection_status_update: '2023-02-22T13:58:30.327Z',
     building_id: buildings[1].id,
     apartment_id: apartments[3].id,
+    apartment_name: apartments[3].name,
   },
 ];
