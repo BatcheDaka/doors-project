@@ -16,7 +16,9 @@ exports[`DoorDetail should render correctly 1`] = `
     </p>
     <p
       class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
-    />
+    >
+      Apartment 1.1
+    </p>
   </div>
   <div
     class="MuiBox-root css-0"
