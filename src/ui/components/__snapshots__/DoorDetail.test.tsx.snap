@@ -84,5 +84,21 @@ exports[`DoorDetail should render correctly 1`] = `
       offline
     </p>
   </div>
+  <div
+    class="MuiBox-root css-0"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+    >
+      <strong>
+        Last Connection Status
+      </strong>
+    </p>
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+    >
+      February 22, 2023 at 5:00:11 AM GMT+2
+    </p>
+  </div>
 </div>
 `;
