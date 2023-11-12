@@ -2,6 +2,7 @@ import Typography from '@mui/material/Typography';
 import { Door } from '@/models/Door';
 import { DetailPageContainer } from '@/ui/layout/DetailPageContainer';
 import { DetailPageItem } from '@/ui/layout/DetailPageItem';
+import { getLocaleString, DateTime } from '@/lib/dateTime';
 
 interface DoorDetailProps {
   door: Door;
@@ -29,6 +30,14 @@ export function DoorDetail({ door }: DoorDetailProps) {
           }
         >
           {door.connectionStatus}
+        </Typography>
+      </DetailPageItem>
+      <DetailPageItem label="Last Connection Status">
+        <Typography>
+          {getLocaleString(
+            door.lastConnectionStatusUpdate,
+            DateTime.DATETIME_FULL_WITH_SECONDS,
+          )}
         </Typography>
       </DetailPageItem>
     </DetailPageContainer>
